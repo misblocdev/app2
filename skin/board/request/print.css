@@ -1,0 +1,7 @@
+.cont {width: 800px;height: 1132px;position: relative;}
+.cont img {width: 100%;}
+.mb_info {width: 713px;height: 162px;margin-top: 194px;margin-left: 42px;position: absolute;top: 0;left: 0;font-size: 16px;}
+.mb_name {width: 352px;height: 48px;position: absolute;left: 0;top: 0;padding-left: 110px;line-height: 48px;}
+.mb_jumin {width: 362px;height: 48px;position: absolute;left: 352px;top: 0;padding-left: 110px;line-height: 48px;}
+.mb_addr {width: 713px;height: 44px;position: absolute;left: 0px;top: 48px;padding-left: 110px;line-height: 44px;}
+.mb_phone {width: 259px;height: 34px;position: absolute;left: 92px;top: 126px;padding-left: 70px;line-height: 34px;}

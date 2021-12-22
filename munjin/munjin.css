@@ -1,0 +1,242 @@
+/* 문진표 공통 */
+#allwrap{width:720px; margin:0 auto;height:100vh;height: calc(var(--vh, 1vh) * 100);background:url(/images/munjinbg.jpg) no-repeat 50% 50%; background-size: cover;padding: 0 20px 120px;}
+.munjin_logo {padding:30px 0 30px 30px;}
+.munjin_back {margin-bottom: 40px;position: relative;}
+.munjin_box {width: calc(100% - 40px);height:70vh;height: calc(var(--vh, 1vh) * 70);background: #fff;border-radius: 15px;padding: 20px;margin: 0 auto;position: relative;}
+.swiper-pagination-progressbar {height: 3px !important;position: relative !important;background: #fff !important;}
+.swiper-pagination-progressbar-fill {background-color: #777dee !important;}
+.munjin_back .swiper-button-prev {width: 36px;height: 30px;position: relative;left: 0;margin-top: 0;opacity: 1 !important;display: none;}
+.munjin_back .swiper-button-prev:after {display: none;}
+.munjin_next .munjin_next_btn {padding-right: 60px;	position: relative;width: 100%;right: 0;margin-top: 0;height: 90px;line-height: 90px;text-align: center;font-size: 30px;font-weight: bold;color: #fff;background: url(/images/munjin_next_arr.png) no-repeat 340px 50% #777dee;border-radius: 45px;border: none;}
+.munjin_next .swiper-button-next:after {display: none;}
+.munjin_submit {display: none;}
+.munjin_box form {height: 100%;}
+.munjin_form {height: calc(100% - 130px);overflow-y: scroll;padding-top: 72px;margin-bottom: 20px;}
+.munjin_form {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+.munjin_form::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
+}
+.munjin_form h3 {text-align: center;font-size: 30px;line-height: 40px;font-weight: 400;margin-bottom: 75px;letter-spacing: -0.07em;}
+.munjin_form h3 span {font-size: 22px;color: #c6c6c6;}
+.munjin_info .munjin_div {margin-bottom: 30px;}
+.munjin_info input {width: 100%;border: none;border-bottom: 1px solid #d2d2d2;height: 64px;font-size: 25px;color: #333;padding-left: 10px;}
+.munjin_info input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #d2d2d2;
+  opacity: 1; /* Firefox */
+}
+.munjin_info input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #d2d2d2;
+}
+.munjin_info input::-ms-input-placeholder { /* Microsoft Edge */
+  color: #d2d2d2;
+}
+.munjin_info .munjin_sex {text-align: left;position: relative;}
+.munjin_info .munjin_sex input[type="radio"] + label {padding-left: 10px;margin-right: 20px;}
+.munjin_info .munjin_sex input[type="radio"]:checked + label {font-weight: bold;}
+.munjin_div {margin-bottom: 40px;}
+.munjin_div h4 {font-size: 25px;font-weight: 400;letter-spacing: -0.08em;margin-bottom: 25px;}
+.munjin_div h4 span {font-size: 20px;color: #c6c6c6;}
+.munjin_div h4 span.blank {display: inline-block;width: 38.5px;}
+.munjin_form .chk_type01 {font-size: 0;position: relative;}
+.munjin_form .chk_type01 input[type="checkbox"] + label {display: inline-block;width: 33.3%;font-size: 22px;position: relative;padding-left: 45px;height: 40px;line-height: 40px;font-weight: 300;letter-spacing: -0.1em;cursor: pointer;margin-bottom: 20px;}
+.munjin_form .chk_type01 input[type="checkbox"] + label span {display: inline-block;width: 37px;height: 37px;background: url(/img/chk.png) no-repeat 50% 50% #c6c6c6;background-size: 19px;position: absolute;top: 2px;left: 0;border-radius: 50%;}
+.munjin_form .chk_type01 input[type="checkbox"]:checked + label span {background: url(/img/chk.png) no-repeat 50% 50% #777dee;background-size: 19px;border-radius: 50%;}
+.munjin_form .chk_type01 input[type="radio"] + label {display: inline-block;width: 33.3%;font-size: 22px;position: relative;padding-left: 45px;height: 40px;line-height: 40px;font-weight: 300;letter-spacing: -0.1em;cursor: pointer;margin-bottom: 20px;}
+.munjin_form .chk_type01 input[type="radio"] + label span {display: inline-block;width: 37px;height: 37px;background: url(/img/chk.png) no-repeat 50% 50% #c6c6c6;background-size: 19px;position: absolute;top: 2px;left: 0;border-radius: 50%;}
+.munjin_form .chk_type01 input[type="radio"]:checked + label span {background: url(/img/chk.png) no-repeat 50% 50% #777dee;background-size: 19px;border-radius: 50%;}
+.munjin_question_sub {margin-top: 35px;padding: 0 20px;}
+.munjin_div .munjin_input {width: 100%;height: 88px;border: none;background: #f9f9f9;color: #9698f2;font-size: 23px;padding-left: 15px;margin-bottom: 20px;}
+.munjin_div textarea.munjin_input {height: 250px;padding: 15px;}
+.munjin_question02_sub {display: none;}
+.munjin_question03_sub {display: none;}
+.munjin_question04_sub {display: none;}
+.munjin_question05_sub {display: none;}
+.munjin_div .munjin_question05_sub input[type="radio"] + label {width: 100%;}
+.munjin_form .chk_type02 {position: relative;font-size: 0;}
+.munjin_form .chk_type02 input[type="radio"] + label {display: inline-block;width: 100%;font-size: 22px;position: relative;padding-left: 75px;height: 80px;line-height: 72px;font-weight: bold;letter-spacing: -0.1em;cursor: pointer;margin-bottom: 20px;border: 2px solid #c6c6c6;border-radius: 12px;background: #f4f4f4;}
+.munjin_form .chk_type02 input[type="radio"] + label span {display: inline-block;width: 37px;height: 37px;background: url(/img/chk.png) no-repeat 50% 50% #c6c6c6;background-size: 19px;position: absolute;top: 50%;left: 20px;border-radius: 50%;transform: translateY(-50%);}
+.munjin_form .chk_type02 input[type="radio"]:checked + label {border: 2px solid #777dee;background: #dedffa;}
+.munjin_form .chk_type02 input[type="radio"]:checked + label span {background: url(/img/chk.png) no-repeat 50% 50% #777dee;background-size: 19px;border-radius: 50%;}
+.munjin_form .chk_type01.chk_label_2 input[type="checkbox"] + label {width: 50%;}
+.munjin_form .chk_type01.chk_label_2 input[type="radio"] + label {width: 50%;}
+.munjin_form .chk_type01.chk_label_4 input[type="radio"] + label {width: 25%;}
+.munjin_form .chk_type02 input[type="checkbox"] + label {display: inline-block;width: 100%;font-size: 22px;position: relative;padding-left: 75px;height: 80px;line-height: 72px;font-weight: bold;letter-spacing: -0.1em;cursor: pointer;margin-bottom: 20px;border: 2px solid #c6c6c6;border-radius: 12px;background: #f4f4f4;}
+.munjin_form .chk_type02 input[type="checkbox"] + label span {display: inline-block;width: 37px;height: 37px;background: url(/img/chk.png) no-repeat 50% 50% #c6c6c6;background-size: 19px;position: absolute;top: 50%;left: 20px;border-radius: 50%;transform: translateY(-50%);}
+.munjin_form .chk_type02 input[type="checkbox"]:checked + label {border: 2px solid #777dee;background: #dedffa;}
+.munjin_form .chk_type02 input[type="checkbox"]:checked + label span {background: url(/img/chk.png) no-repeat 50% 50% #777dee;background-size: 19px;border-radius: 50%;}
+.munjin_form .chk_type02.chk_label_2 input[type="checkbox"] + label {width: 48.5%;}
+.munjin_form .chk_type02.chk_label_2 input.left_chk + label {margin-right: 3%;}
+.munjin_insurance_sub {display: none;}
+.munjin_insurance_sub input[type="text"] {display: none;}
+.munjin_agree_wrap {border: 1px solid #ddd;padding: 15px;height: 16vh;font-size: 16px;overflow-y: scroll;}
+.munjin_agree_wrap {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+.munjin_agree_wrap::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
+}
+.munjin_form .chk_type03 {position: relative;font-size: 0;text-align: right;margin-top: 10px;margin-bottom: 25px;}
+.munjin_form .chk_type03 input[type="checkbox"] + label {display: inline-block;font-size: 22px;position: relative;padding-left: 30px;font-weight: 300;letter-spacing: -0.1em;cursor: pointer;margin-bottom: 20px;}
+.munjin_form .chk_type03 input[type="checkbox"] + label span {display: inline-block;width: 22px;height: 22px;position: absolute;top: 6px;left: 0;}
+.munjin_form .chk_type03 input[type="checkbox"]:checked + label span {background: url(/img/chk.png) no-repeat 50% 50% #777dee;background-size: 15px;}
+.munjin_info {text-align: center;font-size: 25px;font-weight: 300;}
+.munjin_info .munjin_name {font-size: 30px;font-weight: bold;margin-top: 15px;}
+
+/* 예약버튼 */
+.munjin_step {margin-bottom: 40px;}
+.munjin_step .on_step {float: left;width: 16.6%;background: #777dee;height: 3px;}
+.munjin_step .off_step {float: left;width: 83.4%;background: #fff;height: 3px;}
+.munjin_type_wrap {height: 80%;overflow-y: scroll;position: absolute;top: 50%;transform: translateY(-50%);}
+.munjin_type_wrap {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+.munjin_type_wrap::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
+}
+.munjin_type_wrap p {text-align: center;font-size: 30px;line-height: 40px;}
+.munjin_type_wrap p:after {content: '';display: block;clear: both;width: 400px;height: 322px;background: url(/images/munjin_type_img.png) no-repeat 50% 50%;background-size: 400px;margin: 60px auto 67px;}
+.munjin_btn {text-align: center;font-size: 0;margin-bottom: 20px;}
+.munjin_btn a {display: inline-block;width: 290px;height: 100px;line-height: 100px;font-size: 30px;font-weight: bold;color: #fff;text-align: center;border-radius: 12px;background: #777dee;}
+.munjin_btn a:first-child {margin-right: 20px;}
+.munjin_before a {display: block;width: 100%;height: 100px;line-height: 100px;font-size: 30px;font-weight: bold;color: #6a77fa;text-align: center;border-radius: 12px;background: #d6d9f8;}
+
+.munjin_div input[type="radio"] {position:absolute;top:0;left:0;width:0;height:0;opacity:0;outline:0;z-index:-1;overflow:hidden}
+.munjin_div input[type="radio"] + label {position:relative;padding-left:23px;display:inline-block;color:#676e70}
+.munjin_div input[type="radio"] + label span {position:absolute;top:0;left:0;width:15px;height:15px;display:block;background:#f7f8f9;border:1px solid #cdd6df;border-radius:50%}
+.munjin_div input[type="radio"]:checked + label {color:#777dee}
+.munjin_div input[type="radio"]:checked + label span {border-color:#777dee}
+.munjin_div input[type="radio"]:checked + label span:before {width:7px;height:7px;background:#777dee;content:'';position:absolute;top:3px;left:3px;border-radius:50%}
+.munjin_div input[type="checkbox"] + label {position:relative;color:#b7b7b7}
+.munjin_div input[type="checkbox"] + label span {position: absolute;left: 0;top: 4px;width:15px;height:15px;display:block;background:#fff;border:1px solid #d0d4df;border-radius:3px}
+.munjin_div input[type="checkbox"]:checked + label {color:#777dee}
+.munjin_div input[type="checkbox"]:checked + label span {background:url(./img/chk.png) no-repeat 50% 50% #777dee;border-color:#777dee;border-radius:3px}
+.selec_chk {position:absolute;top:0;left:0;width:0;height:0;opacity:0;outline:0;z-index:-1;overflow:hidden}
+
+.pastpop{display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.3); z-index:999;}
+.pastpopwrap{width:640px; /* height:800px; */ position:fixed; top:50%; left:50%; transform: translate(-50%, -50%); background:#fff; padding:130px 20px 120px; border-radius:15px;}
+.pastpopwrap h3{text-align: center; font-size: 30px; line-height: 40px; font-weight: 400; margin-bottom: 60px;}
+.close_pop{position: absolute; right: 30px; top: 35px;}
+.close_pop img {width: 32px;}
+
+.pastpopwrap .munjinchk {font-size: 0;position: relative; width:600px; margin:0 auto 100px;max-height: 200px;overflow-y: scroll;}
+.pastpopwrap .munjinchk {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+.pastpopwrap .munjinchk::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
+}
+.pastpopwrap .munjinchk input[type="checkbox"] + label {display: inline-block;width: 50%;font-size: 22px;position: relative;padding-left: 45px;height: 40px;line-height: 40px;font-weight: 300;letter-spacing: -0.1em;cursor: pointer;margin-bottom: 20px; color:#b7b7b7; font-weight: 400;}
+.pastpopwrap .munjinchk input[type="checkbox"] + label span {display: inline-block;width: 37px;height: 37px;background: url(/img/chk.png) no-repeat 50% 50% #c6c6c6;background-size: 19px;position: absolute;top: 2px;left: 0;border-radius: 50%;}
+.pastpopwrap .munjinchk input[type="checkbox"]:checked + label span {background: url(/img/chk.png) no-repeat 50% 50% #777dee;background-size: 19px;border-radius: 50%;}
+.pastpopwrap .munjinchk input[type="radio"] + label {display: inline-block;width: 50%;font-size: 22px;position: relative;padding-left: 45px;height: 40px;line-height: 40px;font-weight: 300;letter-spacing: -0.1em;cursor: pointer;margin-bottom: 20px;}
+.pastpopwrap .munjinchk input[type="radio"] + label span {display: inline-block;width: 37px;height: 37px;background: url(/img/chk.png) no-repeat 50% 50% #c6c6c6;background-size: 19px;position: absolute;top: 2px;left: 0;border-radius: 50%;}
+.pastpopwrap .munjinchk input[type="radio"]:checked + label span {background: url(/img/chk.png) no-repeat 50% 50% #777dee;background-size: 19px;border-radius: 50%;}
+
+.pastpop_btn a{display: block; margin:0 auto; text-align: center; font-size: 28px; line-height:90px; width:580px; height:90px; border-radius:50px; font-weight:bold;}
+.pastpop_btn a img{margin-left: 25px; margin-bottom: 10px;}
+.pastpop_btn .aa1{background:#777dee; color:#fff; margin-bottom: 20px;}
+.pastpop_btn .aa2{background:#d6d9f8; color:#777dee;}
+
+#munjinResult {display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.3); z-index:999;}
+.munjin_result_wrap {width:640px; /* height:800px; */ position:fixed; top:50%; left:50%; transform: translate(-50%, -50%); background:#fff; border-radius:15px;padding: 120px 20px 95px;}
+.munjin_result_wrap.munjin_result_point {background: url(/images/munjin_point.png) no-repeat 50% 60px #fff;padding: 500px 20px 95px;}
+.munjin_result_wrap h4 {text-align: center;font-size: 27px;font-weight: 400;margin-bottom: 20px;}
+.munjin_result_wrap p {text-align: center;font-size: 25px;font-weight: 300;line-height: 35px;}
+
+.no_munjin {text-align: center;font-size: 20px;}
+
+/* 반응형 css */
+@media only screen and (max-width: 720px) { /* viewport width : 720 */
+
+/* 문진표 공통 */
+#allwrap{width:100.0000vw; margin:0 auto;height:100vh;height: calc(var(--vh, 1vh) * 100);background:url(/images/munjinbg.jpg) no-repeat 50% 50%; background-size: cover;padding: 0 2.7778vw 16.6667vw;}
+.munjin_logo {padding:4.1667vw 0 4.1667vw 4.1667vw;}
+.munjin_logo img {width: 17.9167vw;}
+.munjin_back {margin-bottom: 5.5556vw;}
+.munjin_back img {width: 5.0000vw;}
+.munjin_box {width: calc(100% - 5.5556vw);height:70vh;height: calc(var(--vh, 1vh) * 70);border-radius: 2.0833vw;padding: 2.7778vw;}
+.swiper-pagination-progressbar {height: 0.4167vw !important;}
+.munjin_back .swiper-button-prev {width: 5.0000vw;height: 4.1667vw;}
+.munjin_next .munjin_next_btn {padding-right: 8.3333vw;	height: 12.5000vw;line-height: 12.5000vw;font-size: 4.1667vw;background: url(/images/munjin_next_arr.png) no-repeat 47.2222vw 50% #777dee;background-size: 5.4167vw;border-radius: 6.2500vw;border: none;}
+.munjin_form {height: calc(100% - 18.0556vw);padding-top: 10.0000vw;margin-bottom: 2.7778vw;}
+.munjin_form h3 {font-size: 4.1667vw;line-height: 5.5556vw;margin-bottom: 10.4167vw;}
+.munjin_form h3 span {font-size: 3.0556vw;}
+.munjin_info .munjin_div {margin-bottom: 4.1667vw;}
+.munjin_info input {border-bottom: 0.1389vw solid #d2d2d2;height: 8.8889vw;font-size: 3.4722vw;padding-left: 1.3889vw;}
+.munjin_div {margin-bottom: 5.5556vw;}
+.munjin_div h4 {font-size: 3.4722vw;margin-bottom: 3.4722vw;}
+.munjin_div h4 span {font-size: 2.7778vw;}
+.munjin_div h4 span.blank {width: 5.3472vw;}
+.munjin_form .chk_type01 input[type="checkbox"] + label {font-size: 3.0556vw;padding-left: 6.2500vw;height: 5.5556vw;line-height: 5.5556vw;letter-spacing: -0.1em;margin-bottom: 2.7778vw;}
+.munjin_form .chk_type01 input[type="checkbox"] + label span {width: 5.1389vw;height: 5.1389vw;background: url(/img/chk.png) no-repeat 50% 50% #c6c6c6;background-size: 2.6389vw;top: 0.2778vw;}
+.munjin_form .chk_type01 input[type="checkbox"]:checked + label span {background: url(/img/chk.png) no-repeat 50% 50% #777dee;background-size: 2.6389vw;}
+.munjin_form .chk_type01 input[type="radio"] + label {font-size: 3.0556vw;padding-left: 6.2500vw;height: 5.5556vw;line-height: 5.5556vw;letter-spacing: -0.1em;margin-bottom: 2.7778vw;}
+.munjin_form .chk_type01 input[type="radio"] + label span {width: 5.1389vw;height: 5.1389vw;background: url(/img/chk.png) no-repeat 50% 50% #c6c6c6;background-size: 2.6389vw;top: 0.2778vw;}
+.munjin_form .chk_type01 input[type="radio"]:checked + label span {background: url(/img/chk.png) no-repeat 50% 50% #777dee;background-size: 2.6389vw;}
+.munjin_question_sub {margin-top: 4.8611vw;padding: 0 2.7778vw;}
+.munjin_div .munjin_input {height: 12.2222vw;font-size: 3.1944vw;padding-left: 2.0833vw;margin-bottom: 2.7778vw;}
+.munjin_div textarea.munjin_input {height: 34.7222vw;padding: 2.0833vw;}
+.munjin_form .chk_type02 input[type="radio"] + label {width: 100%;font-size: 3.0556vw;padding-left: 10.4167vw;height: 11.1111vw;line-height: 10.0000vw;letter-spacing: -0.1em;cursor: pointer;margin-bottom: 2.7778vw;border: 0.2778vw solid #c6c6c6;border-radius: 1.6667vw;background: #f4f4f4;}
+.munjin_form .chk_type02 input[type="radio"] + label span {width: 5.1389vw;height: 5.1389vw;background: url(/img/chk.png) no-repeat 50% 50% #c6c6c6;background-size: 2.6389vw;top: 50%;left: 2.7778vw;}
+.munjin_form .chk_type02 input[type="radio"]:checked + label {border: 0.2778vw solid #777dee;}
+.munjin_form .chk_type02 input[type="radio"]:checked + label span {background: url(/img/chk.png) no-repeat 50% 50% #777dee;background-size: 2.6389vw;}
+.munjin_form .chk_type02 input[type="checkbox"] + label {width: 100%;font-size: 3.0556vw;padding-left: 10.4167vw;height: 11.1111vw;line-height: 10.0000vw;letter-spacing: -0.1em;cursor: pointer;margin-bottom: 2.7778vw;border: 0.2778vw solid #c6c6c6;border-radius: 1.6667vw;background: #f4f4f4;}
+.munjin_form .chk_type02 input[type="checkbox"] + label span {width: 5.1389vw;height: 5.1389vw;background: url(/img/chk.png) no-repeat 50% 50% #c6c6c6;background-size: 2.6389vw;top: 50%;left: 2.7778vw;}
+.munjin_form .chk_type02 input[type="checkbox"]:checked + label {border: 0.2778vw solid #777dee;}
+.munjin_form .chk_type02 input[type="checkbox"]:checked + label span {background: url(/img/chk.png) no-repeat 50% 50% #777dee;background-size: 2.6389vw;}
+.munjin_agree_wrap {border: 0.1389vw solid #ddd;padding: 2.0833vw;height: 16vh;font-size: 2.2222vw;}
+.munjin_form .chk_type03 {margin-top: 1.3889vw;margin-bottom: 3.4722vw;}
+.munjin_form .chk_type03 input[type="checkbox"] + label {font-size: 3.0556vw;padding-left: 4.1667vw;margin-bottom: 2.7778vw;}
+.munjin_form .chk_type03 input[type="checkbox"] + label span {width: 3.0556vw;height: 3.0556vw;top: 0.8333vw;}
+.munjin_form .chk_type03 input[type="checkbox"]:checked + label span {background: url(/img/chk.png) no-repeat 50% 50% #777dee;background-size: 2.0833vw;}
+.munjin_info {font-size: 3.4722vw;}
+.munjin_info .munjin_name {font-size: 4.1667vw;margin-top: 2.0833vw;}
+
+/* 예약버튼 */
+.munjin_step {margin-bottom: 5.5556vw;}
+.munjin_step .on_step {height: 0.4167vw;}
+.munjin_step .off_step {height: 0.4167vw;}
+.munjin_type_wrap p {font-size: 4.1667vw;line-height: 5.5556vw;}
+.munjin_type_wrap p:after {width: 55.5556vw;height: 44.7222vw;background: url(/images/munjin_type_img.png) no-repeat 50% 50%;background-size: 55.5556vw;margin: 8.3333vw auto 9.3056vw;}
+.munjin_btn {margin-bottom: 2.7778vw;}
+.munjin_btn a {width: 40.2778vw;height: 13.8889vw;line-height: 13.8889vw;font-size: 4.1667vw;border-radius: 1.6667vw;}
+.munjin_btn a:first-child {margin-right: 2.7778vw;}
+.munjin_before a {height: 13.8889vw;line-height: 13.8889vw;font-size: 4.1667vw;border-radius: 1.6667vw;}
+
+.munjin_div input[type="radio"] + label {padding-left:3.1944vw;}
+.munjin_div input[type="radio"] + label span {width:2.0833vw;height:2.0833vw;border:0.1389vw solid #cdd6df;}
+.munjin_div input[type="radio"]:checked + label span:before {width:0.9722vw;height:0.9722vw;top:0.4167vw;left:0.4167vw;}
+.munjin_div input[type="checkbox"] + label span {top: 0.5556vw;width:2.0833vw;height:2.0833vw;border:0.1389vw solid #d0d4df;border-radius:0.4167vw}
+.munjin_div input[type="checkbox"]:checked + label span {background:url(./img/chk.png) no-repeat 50% 50% #777dee;background-size: 2.0833vw;border-radius:0.4167vw}
+
+.pastpopwrap{width:88.8889vw; /* height:111.1111vw; */  padding:18.0556vw 2.7778vw 16.6667vw; border-radius:2.0833vw;}
+.pastpopwrap h3{ font-size: 4.1667vw; line-height: 5.5556vw;  margin-bottom: 8.3333vw;}
+.close_pop{ right: 4.1667vw; top: 4.8611vw;}
+.close_pop img {width: 4.4444vw;}
+
+.pastpopwrap .munjinchk {width:83.3333vw; margin:0 auto 13.8889vw;max-height: 27.7778vw;}
+.pastpopwrap .munjinchk input[type="checkbox"] + label {font-size: 3.0556vw;padding-left: 6.2500vw;height: 5.5556vw;line-height: 5.5556vw;margin-bottom: 2.7778vw;  }
+.pastpopwrap .munjinchk input[type="checkbox"] + label span {width: 5.1389vw;height: 5.1389vw;background: url(/img/chk.png) no-repeat 50% 50% #c6c6c6;background-size: 2.6389vw;top: 0.2778vw;}
+.pastpopwrap .munjinchk input[type="checkbox"]:checked + label span {background: url(/img/chk.png) no-repeat 50% 50% #777dee;background-size: 2.6389vw;}
+.pastpopwrap .munjinchk input[type="radio"] + label {font-size: 3.0556vw;padding-left: 6.2500vw;height: 5.5556vw;line-height: 5.5556vw;margin-bottom: 2.7778vw;}
+.pastpopwrap .munjinchk input[type="radio"] + label span {width: 5.1389vw;height: 5.1389vw;background: url(/img/chk.png) no-repeat 50% 50% #c6c6c6;background-size: 2.6389vw;top: 0.2778vw;}
+.pastpopwrap .munjinchk input[type="radio"]:checked + label span {background: url(/img/chk.png) no-repeat 50% 50% #777dee;background-size: 2.6389vw;}
+
+.pastpop_btn a{font-size: 3.8889vw; line-height:12.5000vw; width:80.5556vw; height:12.5000vw; border-radius:6.9444vw; }
+.pastpop_btn a img{margin-left: 3.4722vw; margin-bottom: 1.3889vw;}
+.pastpop_btn .aa1{margin-bottom: 2.7778vw;}
+
+.munjin_result_wrap {width:88.8889vw; /* height:111.1111vw; */ border-radius:2.0833vw;padding: 16.6667vw 2.7778vw 13.1944vw;}
+.munjin_result_wrap.munjin_result_point {background: url(/images/munjin_point.png) no-repeat 50% 8.3333vw #fff;padding: 69.4444vw 2.7778vw 13.1944vw;}
+.munjin_result_wrap h4 {font-size: 3.7500vw;margin-bottom: 2.7778vw;}
+.munjin_result_wrap p {font-size: 3.4722vw;line-height: 4.8611vw;}
+
+.no_munjin {font-size: 2.7778vw;}
+
+}
